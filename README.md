@@ -1,6 +1,6 @@
-Microbit Music Controller  &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE)
+Micro:bit Music Controller  &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE)
 =======
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Check out the demo on youtube</h3>
 
   <p align="center">
     An awesome project to control your media keys through micro:bit buttons and gesture control!
@@ -8,7 +8,7 @@ Microbit Music Controller  &middot; [![GitHub license](https://img.shields.io/ba
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     //TODO: add demo video and report bug
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/jaykch/microbit-media-controller/issues">Report Bug</a>
   </p>
 </p>
 
@@ -76,21 +76,21 @@ https://www.python.org/downloads/
     ```
     You will get your com port as below: 
     <br/><br/>
-    ![Port Image](assets/port.png?raw=true "Port")
+    ![Port Image](assets/port.PNG?raw=true "Port")
     
 4.  Change port in server.js file 
     <br/><br/>
-    ![Com Change](assets/com-change.png?raw=true "Com")
+    ![Com Change](assets/com-change.PNG?raw=true "Com")
     
 5. Run node server to start communicating with your micro:bit
-    ```JS
+    ```sh
     node server.js
     ```
 **_Note:_** _You still need to deploy the hex file to your micro:bit. These steps only install the server. Please go through the deployment below to start using your micro:bit._
 
 ## Deployment
 
-Copy the Microbit Music Controller hex file to your micro:bit and Enjoy!
+Copy the Micro:bit Music Controller hex file to your micro:bit and Enjoy!
 
 ## Demo and Description
 Check out the demo on youtube here - //TODO add demo video <br/><br/>
@@ -102,56 +102,52 @@ Below is a list of all controls and gestures for each function
         ![Button Layout](assets/buttons.png?raw=true "Buttons")
 
     1. When you press button a the system starts playing media and displays the below image <br/>  
-    ![Play LEDs](assets/play.png?raw=true "Play")<br/><br/>
+    ![Play LEDs](assets/play.PNG?raw=true "Play")<br/><br/>
     1. When you press button a again the system pauses the media<br/>  
-    ![Pause LEDs](assets/pause.png?raw=true "Pause")
+    ![Pause LEDs](assets/pause.PNG?raw=true "Pause")
     
 * **Mute/Unmute:**
     `Use button a to toggle between play and pause`
         ![Button Layout](assets/buttons.png?raw=true "Buttons")
 
     1. When you press button b it mutes the volume <br/>  
-    ![Mute LEDs](assets/mute.png?raw=true "Mute")<br/><br/>
+    ![Mute LEDs](assets/mute.PNG?raw=true "Mute")<br/><br/>
     1. When you press button b again it unmutes the system<br/>  
-    ![Unmute LEDs](assets/playing.png?raw=true "Unmute")
+    ![Unmute LEDs](assets/playing.PNG?raw=true "Unmute")
     
 * **Next:**  
     `Tilt your micro:bit to the right to go to next track` <br/><br/>
-        ![Tilt Right](assets/next.png?raw=true "Next")<br/><br/>
+        ![Tilt Right](assets/next.PNG?raw=true "Next")<br/><br/>
      If you ware playing any music on Spotify/Windows it will play the next track and show the below LEDs on successful 
      change<br/><br/> 
-        ![Next LEDs](assets/forward.png?raw=true "Previous")<br/><br/>
+        ![Next LEDs](assets/forward.PNG?raw=true "Previous")<br/><br/>
      
 * **Previous:**
     `Tilt your micro:bit to the left to go to next track` <br/><br/>
-        ![Tilt Left](assets/previous.png?raw=true "Previous")<br/><br/>
+        ![Tilt Left](assets/previous.PNG?raw=true "Previous")<br/><br/>
     If you ware playing any music on Spotify/Windows it will play the previous track and show the below LEDs on 
     successful change<br/><br/>
-        ![Previous LEDs](assets/backward.png?raw=true "Previous")<br/><br/> 
+        ![Previous LEDs](assets/backward.PNG?raw=true "Previous")<br/><br/> 
        
 * **Volume Up:**
     `Tilt your micro:bit upwards to increase volume` <br/><br/>
-        ![Tilt Up](assets/up.png?raw=true "Up")<br/><br/>
+        ![Tilt Up](assets/up.PNG?raw=true "Up")<br/><br/>
     This gesture will increase system volume and show a plus sign on micro:bit<br/><br/>
-        ![Plus LEDs](assets/plus.png?raw=true "Previous")<br/><br/>
+        ![Plus LEDs](assets/plus.PNG?raw=true "Previous")<br/><br/>
     
 * **Volume Down:**
     `Tilt your micro:bit downwards to decrease volume` <br/><br/>
-        ![Tilt Down](assets/down.png?raw=true "Down")<br/><br/>
+        ![Tilt Down](assets/down.PNG?raw=true "Down")<br/><br/>
     This gesture will reduce system volume and show a minus sign on micro:bit<br/><br/>
-        ![Minus LEDs](assets/minus.png?raw=true "Previous")<br/><br/>
+        ![Minus LEDs](assets/minus.PNG?raw=true "Previous")<br/><br/>
 
 ## Author
 * **Jay Kumar** - *Complete Development* - [jaykch.com](http://www.jaykch.com/)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](/LICENSE) file for details
 
 ## Acknowledgments
 
 * [Serialport](https://serialport.io/) - Library for serial communication to micro:bit
 * [Robotjs](http://robotjs.io/) - Library to simulate key-presses
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
