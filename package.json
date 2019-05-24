@@ -1,0 +1,17 @@
+{
+  "name": "microbit-media-controller",
+  "version": "0.8.0",
+  "description": "Micro:bit server and hex file to control media on a windows pc",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "port": "node port.js"
+  },
+  "author": "Jay Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "robotjs": "^0.5.1",
+    "serialport": "^7.1.5"
+  }
+}
