@@ -1,19 +1,16 @@
-Micro:bit Music Controller  &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE)
+Micro:bit Music Controller  &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jaykch/microbit-media-controller/blob/master/LICENSE)
 =======
   <h3 align="center">Check out the demo on youtube</h3>
 
   <p align="center">
     An awesome project to control your media keys through micro:bit buttons and gesture control!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    //TODO: add demo video and report bug
+    <a href="https://youtu.be/CM8lSN1KUtg">View Demo</a>
     ·
     <a href="https://github.com/jaykch/microbit-media-controller/issues">Report Bug</a>
   </p>
 </p>
 
-
-<!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
 * [About the Project](#about-the-project)
@@ -50,7 +47,7 @@ See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 Here is the list of all the prerequisites you would need to install on your system in order to run this device
-* Node.js
+* Node.js v10.15.3
 ```sh
 https://nodejs.org/en/download/
 ```
@@ -62,6 +59,16 @@ https://www.npmjs.com/get-npm
 ```sh
 https://www.python.org/downloads/
 ```
+
+* Additional build tools are required to be able to run media keys on windows. Run these commands from an 
+administrative shell to install software dependencies:
+<br/><br/>**_Note:_** _You need to install windows build tools version 4.0 or higher_ <br/><br/>
+```sh
+npm install --global --production windows-build-tools
+npm install -g node-gyp
+```
+
+<!-- TABLE OF CONTENTS -->
 
 ### Installation
 1. Add all dependencies using npm
@@ -93,8 +100,7 @@ https://www.python.org/downloads/
 Copy the Micro:bit Music Controller hex file to your micro:bit and Enjoy!
 
 ## Demo and Description
-Check out the demo on youtube here - //TODO add demo video <br/><br/>
-![NSGIF](https://dl.dropboxusercontent.com/s/p02c6l7rzk6mf6m/NSGIF-HT.gif?dl=0)
+Check out the demo on youtube here - <a href="https://youtu.be/CM8lSN1KUtg">View Demo</a> <br/><br/>
 
 Below is a list of all controls and gestures for each function
 * **Play/Pause:** 
