@@ -68,8 +68,6 @@ npm install --global --production windows-build-tools
 npm install -g node-gyp
 ```
 
-<!-- TABLE OF CONTENTS -->
-
 ### Installation
 1. Add all dependencies using npm
     ```sh
